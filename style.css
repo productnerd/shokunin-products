@@ -335,6 +335,14 @@ body {
   border-radius: 100px;
 }
 
+.product-variants {
+  font-size: 0.65rem;
+  color: var(--accent);
+  background: rgba(184, 120, 90, 0.08);
+  padding: 0.15rem 0.5rem;
+  border-radius: 100px;
+}
+
 /* ── Placeholder image ── */
 .placeholder-icon {
   width: 48px;

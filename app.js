@@ -208,8 +208,8 @@
         <div class="product-brand">${p.brand}</div>
         <div class="product-name">${p.name}</div>
         <div class="product-meta">
-          <span class="product-price">${fmt.format(p.price)}</span>
-          <span class="product-category-tag">${p.category}</span>
+          <span class="product-price">${p.priceMax ? 'from ' + fmt.format(p.price) : fmt.format(p.price)}</span>
+          ${p.variants ? `<span class="product-variants">${p.variants.length} options</span>` : `<span class="product-category-tag">${p.category}</span>`}
         </div>
       </div>
     `;
