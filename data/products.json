@@ -604,68 +604,8 @@
       ]
     },
     {
-      "id": "tadafusa-bread",
-      "name": "Bread Knife (230mm)",
-      "brand": "Tadafusa",
-      "category": "Kitchen Knives",
-      "material": [
-        "SG2 Steel",
-        "Cherry Wood"
-      ],
-      "price": 12650,
-      "image": "https://www.shokunin.com/img/tadafusa/top33.jpg",
-      "url": "https://www.shokunin.com/jp/tadafusa/houchou.html",
-      "images": [
-        "https://www.shokunin.com/img/tadafusa/01s.jpg",
-        "https://www.shokunin.com/img/tadafusa/02s.jpg",
-        "https://www.shokunin.com/img/tadafusa/03s.jpg",
-        "https://www.shokunin.com/img/tadafusa/04s.jpg",
-        "https://www.shokunin.com/img/tadafusa/05s.jpg",
-        "https://www.shokunin.com/img/tadafusa/06s.jpg",
-        "https://www.shokunin.com/img/tadafusa/07s.jpg",
-        "https://www.shokunin.com/img/tadafusa/08s.jpg",
-        "https://www.shokunin.com/img/tadafusa/butter/i1s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i10s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i11s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i12s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i14s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i15s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i20m.jpg"
-      ]
-    },
-    {
       "id": "tadafusa-santoku",
-      "name": "Santoku Knife (170mm)",
-      "brand": "Tadafusa",
-      "category": "Kitchen Knives",
-      "material": [
-        "SG2 Steel",
-        "Cherry Wood"
-      ],
-      "price": 12100,
-      "image": "https://www.shokunin.com/img/tadafusa/top33.jpg",
-      "url": "https://www.shokunin.com/jp/tadafusa/houchou.html",
-      "images": [
-        "https://www.shokunin.com/img/tadafusa/01s.jpg",
-        "https://www.shokunin.com/img/tadafusa/02s.jpg",
-        "https://www.shokunin.com/img/tadafusa/03s.jpg",
-        "https://www.shokunin.com/img/tadafusa/04s.jpg",
-        "https://www.shokunin.com/img/tadafusa/05s.jpg",
-        "https://www.shokunin.com/img/tadafusa/06s.jpg",
-        "https://www.shokunin.com/img/tadafusa/07s.jpg",
-        "https://www.shokunin.com/img/tadafusa/08s.jpg",
-        "https://www.shokunin.com/img/tadafusa/butter/i1s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i10s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i11s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i12s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i14s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i15s.jpg",
-        "https://www.shokunin.com/img/tadafusa/i20m.jpg"
-      ]
-    },
-    {
-      "id": "tadafusa-petty",
-      "name": "Petty Knife (125mm)",
+      "name": "Knife",
       "brand": "Tadafusa",
       "category": "Kitchen Knives",
       "material": [
@@ -691,7 +631,22 @@
         "https://www.shokunin.com/img/tadafusa/i14s.jpg",
         "https://www.shokunin.com/img/tadafusa/i15s.jpg",
         "https://www.shokunin.com/img/tadafusa/i20m.jpg"
-      ]
+      ],
+      "variants": [
+        {
+          "name": "Petty Knife (125mm)",
+          "price": 9900
+        },
+        {
+          "name": "Santoku Knife (170mm)",
+          "price": 12100
+        },
+        {
+          "name": "Bread Knife (230mm)",
+          "price": 12650
+        }
+      ],
+      "priceMax": 12650
     },
     {
       "id": "tadafusa-whetstone",
@@ -730,7 +685,7 @@
     },
     {
       "id": "noda-square",
-      "name": "White Series Square",
+      "name": "White Series",
       "brand": "Noda Horo",
       "category": "Enamelware",
       "material": [
@@ -738,115 +693,49 @@
         "Steel"
       ],
       "price": 1375,
-      "priceMax": 2310,
-      "image": "https://www.shokunin.com/img/noda/top18.jpg",
-      "url": "https://www.shokunin.com/jp/noda/",
-      "variants": [
-        {
-          "name": "S (320ml)",
-          "price": 1375
-        },
-        {
-          "name": "M (800ml)",
-          "price": 2035
-        },
-        {
-          "name": "L (1200ml)",
-          "price": 2310
-        }
-      ],
-      "images": [
-        "https://www.shokunin.com/img/kurikyu/mutosou/i11s.jpg",
-        "https://www.shokunin.com/img/noda/butter/i1s.jpg",
-        "https://www.shokunin.com/img/noda/horo/i5s.jpg",
-        "https://www.shokunin.com/img/noda/i11m.jpg",
-        "https://www.shokunin.com/img/noda/i13s.jpg",
-        "https://www.shokunin.com/img/noda/i17s.jpg",
-        "https://www.shokunin.com/img/noda/i19s.jpg",
-        "https://www.shokunin.com/img/noda/i1s.jpg",
-        "https://www.shokunin.com/img/noda/i21s.jpg",
-        "https://www.shokunin.com/img/noda/i23s.jpg",
-        "https://www.shokunin.com/img/noda/i25s.jpg",
-        "https://www.shokunin.com/img/noda/i26s.jpg",
-        "https://www.shokunin.com/img/noda/i27s.jpg",
-        "https://www.shokunin.com/img/noda/i28s.jpg",
-        "https://www.shokunin.com/img/noda/i2m.jpg"
-      ]
-    },
-    {
-      "id": "noda-rect-deep",
-      "name": "White Series Rectangle Deep",
-      "brand": "Noda Horo",
-      "category": "Enamelware",
-      "material": [
-        "Enamel",
-        "Steel"
-      ],
-      "price": 1540,
       "priceMax": 3795,
       "image": "https://www.shokunin.com/img/noda/top18.jpg",
       "url": "https://www.shokunin.com/jp/noda/",
       "variants": [
         {
-          "name": "S (500ml)",
+          "name": "Square S (320ml)",
+          "price": 1375
+        },
+        {
+          "name": "Rectangle Deep S (500ml)",
           "price": 1540
         },
         {
-          "name": "M (850ml)",
+          "name": "Rectangle Shallow S (800ml)",
+          "price": 1540
+        },
+        {
+          "name": "Square M (800ml)",
           "price": 2035
         },
         {
-          "name": "L (1500ml)",
+          "name": "Rectangle Deep M (850ml)",
+          "price": 2035
+        },
+        {
+          "name": "Square L (1200ml)",
           "price": 2310
         },
         {
-          "name": "LL (3200ml)",
-          "price": 3795
-        }
-      ],
-      "images": [
-        "https://www.shokunin.com/img/kurikyu/mutosou/i11s.jpg",
-        "https://www.shokunin.com/img/noda/butter/i1s.jpg",
-        "https://www.shokunin.com/img/noda/horo/i5s.jpg",
-        "https://www.shokunin.com/img/noda/i11m.jpg",
-        "https://www.shokunin.com/img/noda/i13s.jpg",
-        "https://www.shokunin.com/img/noda/i17s.jpg",
-        "https://www.shokunin.com/img/noda/i19s.jpg",
-        "https://www.shokunin.com/img/noda/i1s.jpg",
-        "https://www.shokunin.com/img/noda/i21s.jpg",
-        "https://www.shokunin.com/img/noda/i23s.jpg",
-        "https://www.shokunin.com/img/noda/i25s.jpg",
-        "https://www.shokunin.com/img/noda/i26s.jpg",
-        "https://www.shokunin.com/img/noda/i27s.jpg",
-        "https://www.shokunin.com/img/noda/i28s.jpg",
-        "https://www.shokunin.com/img/noda/i2m.jpg"
-      ]
-    },
-    {
-      "id": "noda-rect-shallow",
-      "name": "White Series Rectangle Shallow",
-      "brand": "Noda Horo",
-      "category": "Enamelware",
-      "material": [
-        "Enamel",
-        "Steel"
-      ],
-      "price": 1540,
-      "priceMax": 2585,
-      "image": "https://www.shokunin.com/img/noda/top18.jpg",
-      "url": "https://www.shokunin.com/jp/noda/",
-      "variants": [
-        {
-          "name": "S (800ml)",
-          "price": 1540
+          "name": "Rectangle Deep L (1500ml)",
+          "price": 2310
         },
         {
-          "name": "M (1400ml)",
+          "name": "Rectangle Shallow M (1400ml)",
           "price": 2420
         },
         {
-          "name": "L (2400ml)",
+          "name": "Rectangle Shallow L (2400ml)",
           "price": 2585
+        },
+        {
+          "name": "Rectangle Deep LL (3200ml)",
+          "price": 3795
         }
       ],
       "images": [
@@ -2108,7 +1997,7 @@
     },
     {
       "id": "ichibishi-ladle",
-      "name": "Ladle",
+      "name": "Kitchen Utensil",
       "brand": "Ichibishi",
       "category": "Stainless Steel Kitchen",
       "material": [
@@ -2133,70 +2022,22 @@
         "https://www.shokunin.com/img/ichibishi/i6s.jpg",
         "https://www.shokunin.com/img/ichibishi/t/i1m.jpg",
         "https://www.shokunin.com/img/ichibishi/t/i2s.jpg"
-      ]
-    },
-    {
-      "id": "ichibishi-turner",
-      "name": "Turner",
-      "brand": "Ichibishi",
-      "category": "Stainless Steel Kitchen",
-      "material": [
-        "Stainless Steel"
       ],
-      "price": 2090,
-      "image": "https://www.shokunin.com/img/ichibishi/t/i1m.jpg",
-      "url": "https://www.shokunin.com/jp/ichibishi/",
-      "images": [
-        "https://www.shokunin.com/img/ichibishi/i10m.jpg",
-        "https://www.shokunin.com/img/ichibishi/i10s.jpg",
-        "https://www.shokunin.com/img/ichibishi/i14s.jpg",
-        "https://www.shokunin.com/img/ichibishi/i16s.jpg",
-        "https://www.shokunin.com/img/ichibishi/i1s.jpg",
-        "https://www.shokunin.com/img/ichibishi/i21s.jpg",
-        "https://www.shokunin.com/img/ichibishi/i24s.jpg",
-        "https://www.shokunin.com/img/ichibishi/i25s.jpg",
-        "https://www.shokunin.com/img/ichibishi/i26s.jpg",
-        "https://www.shokunin.com/img/ichibishi/i2m.jpg",
-        "https://www.shokunin.com/img/ichibishi/i3s.jpg",
-        "https://www.shokunin.com/img/ichibishi/i5s.jpg",
-        "https://www.shokunin.com/img/ichibishi/i6s.jpg",
-        "https://www.shokunin.com/img/ichibishi/t/i1m.jpg",
-        "https://www.shokunin.com/img/ichibishi/t/i2s.jpg"
-      ]
+      "variants": [
+        {
+          "name": "Ladle",
+          "price": 2090
+        },
+        {
+          "name": "Turner",
+          "price": 2090
+        }
+      ],
+      "priceMax": 2090
     },
     {
       "id": "matsuya-bento-2",
-      "name": "Two-Tier Bento Box",
-      "brand": "Matsuya Shikkiten",
-      "category": "Woodcraft & Lacquerware",
-      "material": [
-        "Cedar",
-        "Lacquer"
-      ],
-      "price": 17600,
-      "image": "https://www.shokunin.com/img/matsuya/top21.jpg",
-      "url": "https://www.shokunin.com/jp/matsuya/",
-      "images": [
-        "https://www.shokunin.com/img/matsuya/i10m.jpg",
-        "https://www.shokunin.com/img/matsuya/i11m.jpg",
-        "https://www.shokunin.com/img/matsuya/i16s.jpg",
-        "https://www.shokunin.com/img/matsuya/i1m.jpg",
-        "https://www.shokunin.com/img/matsuya/i27s.jpg",
-        "https://www.shokunin.com/img/matsuya/i2s.jpg",
-        "https://www.shokunin.com/img/matsuya/i38s.jpg",
-        "https://www.shokunin.com/img/matsuya/i3m.jpg",
-        "https://www.shokunin.com/img/matsuya/i3s.jpg",
-        "https://www.shokunin.com/img/matsuya/i41s.jpg",
-        "https://www.shokunin.com/img/matsuya/i42s.jpg",
-        "https://www.shokunin.com/img/matsuya/i44s.jpg",
-        "https://www.shokunin.com/img/matsuya/i49s.jpg",
-        "https://www.shokunin.com/img/matsuya/i4s.jpg",
-        "https://www.shokunin.com/img/matsuya/i50s.jpg"
-      ]
-    },
-    {
-      "id": "matsuya-single",
-      "name": "Single-Tier Box",
+      "name": "Bento Box",
       "brand": "Matsuya Shikkiten",
       "category": "Woodcraft & Lacquerware",
       "material": [
@@ -2222,7 +2063,18 @@
         "https://www.shokunin.com/img/matsuya/i49s.jpg",
         "https://www.shokunin.com/img/matsuya/i4s.jpg",
         "https://www.shokunin.com/img/matsuya/i50s.jpg"
-      ]
+      ],
+      "variants": [
+        {
+          "name": "Single-Tier Box",
+          "price": 6050
+        },
+        {
+          "name": "Two-Tier Bento Box",
+          "price": 17600
+        }
+      ],
+      "priceMax": 17600
     },
     {
       "id": "siwa-overnight",
@@ -2274,19 +2126,35 @@
     },
     {
       "id": "siwa-pc-case",
-      "name": "PC/Tablet Case",
+      "name": "Case",
       "brand": "SIWA",
       "category": "Bags & Accessories",
       "material": [
         "Washi Paper"
       ],
-      "price": 3850,
+      "price": 1540,
       "image": "https://www.shokunin.com/img/siwa/case/ca2.jpg",
       "url": "https://www.shokunin.com/jp/siwa/",
       "images": [
         "https://www.shokunin.com/img/siwa/case/ca2.jpg",
-        "https://www.shokunin.com/img/siwa/case/shop.jpg"
-      ]
+        "https://www.shokunin.com/img/siwa/case/shop.jpg",
+        "https://www.shokunin.com/img/siwa/pencase/i9s.jpg"
+      ],
+      "variants": [
+        {
+          "name": "Pen Case",
+          "price": 1540
+        },
+        {
+          "name": "Business Card Case",
+          "price": 3080
+        },
+        {
+          "name": "PC/Tablet Case",
+          "price": 3850
+        }
+      ],
+      "priceMax": 3850
     },
     {
       "id": "siwa-clutch",
@@ -2302,22 +2170,6 @@
       "images": [
         "https://www.shokunin.com/img/siwa/clutchbag/350.jpg",
         "https://www.shokunin.com/img/siwa/clutchbag/i6s.jpg"
-      ]
-    },
-    {
-      "id": "siwa-card-case",
-      "name": "Business Card Case",
-      "brand": "SIWA",
-      "category": "Bags & Accessories",
-      "material": [
-        "Washi Paper"
-      ],
-      "price": 3080,
-      "image": "https://www.shokunin.com/img/siwa/case/ca2.jpg",
-      "url": "https://www.shokunin.com/jp/siwa/",
-      "images": [
-        "https://www.shokunin.com/img/siwa/case/ca2.jpg",
-        "https://www.shokunin.com/img/siwa/case/shop.jpg"
       ]
     },
     {
@@ -2363,23 +2215,6 @@
         "https://www.shokunin.com/img/siwa/i2bm.jpg",
         "https://www.shokunin.com/img/siwa/index/SIWA_12_business_card_case_.jpg",
         "https://www.shokunin.com/img/siwa/index/SIWA_coin_purse_A.jpg"
-      ]
-    },
-    {
-      "id": "siwa-pen-case",
-      "name": "Pen Case",
-      "brand": "SIWA",
-      "category": "Bags & Accessories",
-      "material": [
-        "Washi Paper"
-      ],
-      "price": 1540,
-      "image": "https://www.shokunin.com/img/siwa/case/ca2.jpg",
-      "url": "https://www.shokunin.com/jp/siwa/",
-      "images": [
-        "https://www.shokunin.com/img/siwa/case/ca2.jpg",
-        "https://www.shokunin.com/img/siwa/case/shop.jpg",
-        "https://www.shokunin.com/img/siwa/pencase/i9s.jpg"
       ]
     },
     {
@@ -3544,55 +3379,30 @@
     },
     {
       "id": "denshiro-canister",
-      "name": "Cherry Bark Tea Canister",
-      "brand": "Fujiki Denshiro",
-      "category": "Tea & Coffee",
-      "material": [
-        "Cherry Bark"
-      ],
-      "price": 11550,
-      "priceMax": 12650,
-      "image": "https://www.shokunin.com/img/denshiro/top10.jpg",
-      "url": "https://www.shokunin.com/jp/denshiro/",
-      "variants": [
-        {
-          "name": "Plain",
-          "price": 11550
-        },
-        {
-          "name": "Frost",
-          "price": 12650
-        }
-      ],
-      "images": [
-        "https://www.shokunin.com/img/denshiro/i11m.jpg",
-        "https://www.shokunin.com/img/denshiro/i12s.jpg",
-        "https://www.shokunin.com/img/denshiro/i13s.jpg",
-        "https://www.shokunin.com/img/denshiro/i14s.jpg",
-        "https://www.shokunin.com/img/denshiro/i15s.jpg",
-        "https://www.shokunin.com/img/denshiro/i16s.jpg",
-        "https://www.shokunin.com/img/denshiro/i17s.jpg",
-        "https://www.shokunin.com/img/denshiro/i18s.jpg",
-        "https://www.shokunin.com/img/denshiro/i19s.jpg",
-        "https://www.shokunin.com/img/denshiro/i1m.jpg",
-        "https://www.shokunin.com/img/denshiro/i20s.jpg",
-        "https://www.shokunin.com/img/denshiro/i22s.jpg",
-        "https://www.shokunin.com/img/denshiro/i3s.jpg",
-        "https://www.shokunin.com/img/denshiro/i4s.jpg",
-        "https://www.shokunin.com/img/denshiro/i5m.jpg"
-      ]
-    },
-    {
-      "id": "denshiro-scoop",
-      "name": "Cherry Bark Tea Scoop",
+      "name": "Cherry Bark Tea Set",
       "brand": "Fujiki Denshiro",
       "category": "Tea & Coffee",
       "material": [
         "Cherry Bark"
       ],
       "price": 770,
+      "priceMax": 12650,
       "image": "https://www.shokunin.com/img/denshiro/top10.jpg",
       "url": "https://www.shokunin.com/jp/denshiro/",
+      "variants": [
+        {
+          "name": "Cherry Bark Tea Scoop",
+          "price": 770
+        },
+        {
+          "name": "Cherry Bark Tea Canister Plain",
+          "price": 11550
+        },
+        {
+          "name": "Cherry Bark Tea Canister Frost",
+          "price": 12650
+        }
+      ],
       "images": [
         "https://www.shokunin.com/img/denshiro/i11m.jpg",
         "https://www.shokunin.com/img/denshiro/i12s.jpg",
@@ -3942,31 +3752,7 @@
     },
     {
       "id": "onishi-fountain",
-      "name": "Sakura Fountain Pen",
-      "brand": "Onishi Seisakusho",
-      "category": "Writing Instruments",
-      "material": [
-        "Celluloid"
-      ],
-      "price": 16500,
-      "image": "https://www.shokunin.com/img/onishi/top8.jpg",
-      "url": "https://www.shokunin.com/jp/onishi/pen.html",
-      "images": [
-        "https://www.shokunin.com/img/onishi/i2m.jpg",
-        "https://www.shokunin.com/img/onishi/i3m.jpg",
-        "https://www.shokunin.com/img/onishi/i3s.jpg",
-        "https://www.shokunin.com/img/onishi/i6m.jpg",
-        "https://www.shokunin.com/img/onishi/i7m.jpg",
-        "https://www.shokunin.com/img/onishi/m1s.jpg",
-        "https://www.shokunin.com/img/onishi/m2s.jpg",
-        "https://www.shokunin.com/img/onishi/onishi2_350.jpg",
-        "https://www.shokunin.com/img/onishi/top8.jpg",
-        "https://www.shokunin.com/img/onishi/y1.jpg"
-      ]
-    },
-    {
-      "id": "onishi-ballpoint",
-      "name": "Sakura Ballpoint Pen",
+      "name": "Sakura Pen",
       "brand": "Onishi Seisakusho",
       "category": "Writing Instruments",
       "material": [
@@ -3986,40 +3772,22 @@
         "https://www.shokunin.com/img/onishi/onishi2_350.jpg",
         "https://www.shokunin.com/img/onishi/top8.jpg",
         "https://www.shokunin.com/img/onishi/y1.jpg"
-      ]
+      ],
+      "variants": [
+        {
+          "name": "Sakura Ballpoint Pen",
+          "price": 8800
+        },
+        {
+          "name": "Sakura Fountain Pen",
+          "price": 16500
+        }
+      ],
+      "priceMax": 16500
     },
     {
       "id": "kozo-musubi",
-      "name": "Palm Brush Musubi",
-      "brand": "Takada Kozo",
-      "category": "Cleaning Tools",
-      "material": [
-        "Palm Fiber"
-      ],
-      "price": 2420,
-      "image": "https://www.shokunin.com/img/kozo/new/top7.jpg",
-      "url": "https://www.shokunin.com/jp/kozo/tawashi.html",
-      "images": [
-        "https://www.shokunin.com/img/kozo/i10s.jpg",
-        "https://www.shokunin.com/img/kozo/i9s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i10m.jpg",
-        "https://www.shokunin.com/img/kozo/new/i15m.jpg",
-        "https://www.shokunin.com/img/kozo/new/i16s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i17s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i28s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i30s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i6m.jpg",
-        "https://www.shokunin.com/img/kozo/new/i7m.jpg",
-        "https://www.shokunin.com/img/kozo/new/i7s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i8s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i9s.jpg",
-        "https://www.shokunin.com/img/kozo/new/top7.jpg",
-        "https://www.shokunin.com/img/suzuki/i35s.jpg"
-      ]
-    },
-    {
-      "id": "kozo-nejiri",
-      "name": "Palm Brush Nejiri (Twisted)",
+      "name": "Palm Brush",
       "brand": "Takada Kozo",
       "category": "Cleaning Tools",
       "material": [
@@ -4044,36 +3812,22 @@
         "https://www.shokunin.com/img/kozo/new/i9s.jpg",
         "https://www.shokunin.com/img/kozo/new/top7.jpg",
         "https://www.shokunin.com/img/suzuki/i35s.jpg"
-      ]
-    },
-    {
-      "id": "kozo-sasara",
-      "name": "Palm Sasara",
-      "brand": "Takada Kozo",
-      "category": "Cleaning Tools",
-      "material": [
-        "Palm Fiber"
       ],
-      "price": 2750,
-      "image": "https://www.shokunin.com/img/kozo/new/top7.jpg",
-      "url": "https://www.shokunin.com/jp/kozo/tawashi.html",
-      "images": [
-        "https://www.shokunin.com/img/kozo/i10s.jpg",
-        "https://www.shokunin.com/img/kozo/i9s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i10m.jpg",
-        "https://www.shokunin.com/img/kozo/new/i15m.jpg",
-        "https://www.shokunin.com/img/kozo/new/i16s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i17s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i28s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i30s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i6m.jpg",
-        "https://www.shokunin.com/img/kozo/new/i7m.jpg",
-        "https://www.shokunin.com/img/kozo/new/i7s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i8s.jpg",
-        "https://www.shokunin.com/img/kozo/new/i9s.jpg",
-        "https://www.shokunin.com/img/kozo/new/top7.jpg",
-        "https://www.shokunin.com/img/suzuki/i35s.jpg"
-      ]
+      "variants": [
+        {
+          "name": "Palm Brush Nejiri (Twisted)",
+          "price": 1760
+        },
+        {
+          "name": "Palm Brush Musubi",
+          "price": 2420
+        },
+        {
+          "name": "Palm Sasara",
+          "price": 2750
+        }
+      ],
+      "priceMax": 2750
     },
     {
       "id": "iwamoto-bon",

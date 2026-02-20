@@ -148,7 +148,8 @@
         p.name.toLowerCase().includes(q) ||
         p.brand.toLowerCase().includes(q) ||
         p.category.toLowerCase().includes(q) ||
-        p.material.some(m => m.toLowerCase().includes(q))
+        p.material.some(m => m.toLowerCase().includes(q)) ||
+        (p.variants && p.variants.some(v => v.name.toLowerCase().includes(q)))
       );
     }
 
