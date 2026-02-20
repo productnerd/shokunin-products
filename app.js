@@ -193,13 +193,11 @@
   }
 
   function card(p) {
-    const a = document.createElement('a');
-    a.className = 'product-card';
-    a.href = p.url;
-    a.target = '_blank';
-    a.rel = 'noopener';
+    const el = document.createElement('div');
+    el.className = 'product-card';
+    el.addEventListener('click', () => openModal(p));
 
-    a.innerHTML = `
+    el.innerHTML = `
       <div class="product-image-wrap">
         <img src="${p.image}" alt="${p.name} by ${p.brand}" loading="lazy"
              onerror="this.parentElement.innerHTML='<svg class=\\'placeholder-icon\\' viewBox=\\'0 0 24 24\\' fill=\\'none\\' stroke=\\'currentColor\\' stroke-width=\\'1\\'><rect x=\\'3\\' y=\\'3\\' width=\\'18\\' height=\\'18\\' rx=\\'2\\'/><circle cx=\\'8.5\\' cy=\\'8.5\\' r=\\'1.5\\'/><path d=\\'m21 15-5-5L5 21\\'/></svg>'">
@@ -213,7 +211,71 @@
         </div>
       </div>
     `;
-    return a;
+    return el;
+  }
+
+  // ── Product Modal ──
+  function openModal(p) {
+    const overlay = $('#modalOverlay');
+    const body = $('#modalBody');
+    const images = (p.images && p.images.length > 0) ? p.images : [p.image];
+    const mainImg = images[0];
+
+    body.innerHTML = `
+      <div class="modal-gallery">
+        <div class="modal-main-image">
+          <img src="${mainImg}" alt="${p.name}" id="modalMainImg">
+        </div>
+        ${images.length > 1 ? `
+          <div class="modal-thumbs">
+            ${images.map((img, i) => `
+              <img src="${img}" class="modal-thumb${i === 0 ? ' active' : ''}"
+                   data-src="${img}" loading="lazy">
+            `).join('')}
+          </div>
+        ` : ''}
+      </div>
+      <div class="modal-info">
+        <div class="modal-brand">${p.brand}</div>
+        <h2 class="modal-name">${p.name}</h2>
+        <div class="modal-detail">
+          <span>${p.category}</span>
+          ${p.material.map(m => `<span>${m}</span>`).join('')}
+        </div>
+        <div class="modal-price">${p.priceMax ? 'from ' + fmt.format(p.price) : fmt.format(p.price)}</div>
+        ${p.variants ? `
+          <div class="modal-variants">
+            <div class="modal-variants-label">Options</div>
+            ${p.variants.map(v => `
+              <div class="modal-variant">
+                <span>${v.name}</span>
+                <span>${fmt.format(v.price)}</span>
+              </div>
+            `).join('')}
+          </div>
+        ` : ''}
+        <a href="${p.url}" target="_blank" rel="noopener" class="modal-buy-btn">
+          Buy on Shokunin
+        </a>
+      </div>
+    `;
+
+    // Bind thumbnail clicks
+    body.querySelectorAll('.modal-thumb').forEach(thumb => {
+      thumb.addEventListener('click', () => {
+        $('#modalMainImg').src = thumb.dataset.src;
+        body.querySelectorAll('.modal-thumb').forEach(t => t.classList.remove('active'));
+        thumb.classList.add('active');
+      });
+    });
+
+    overlay.style.display = '';
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeModal() {
+    $('#modalOverlay').style.display = 'none';
+    document.body.style.overflow = '';
   }
 
   // ── Events ──
@@ -241,6 +303,15 @@
     // Close dropdown on outside click
     document.addEventListener('click', () => closeBrandMenu());
     $('#brandMenu').addEventListener('click', (e) => e.stopPropagation());
+
+    // Modal close
+    $('#modalClose').addEventListener('click', closeModal);
+    $('#modalOverlay').addEventListener('click', (e) => {
+      if (e.target === $('#modalOverlay')) closeModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
   }
 
   init();
